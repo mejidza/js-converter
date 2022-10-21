@@ -22,14 +22,14 @@
             <div class="conventer-item">
             <img src="./img/russia.png" alt="russia-flag" class="converter-country-icon">
             <p class="converter-country-text">RUB</p>
-            <input class="converter-input" type="text">
+            <input id="convertInput" class="converter-input" type="text">
         </div>
         <hr class="converter-overline">
         <div class="converter-container">
             <div class="conventer-item">
             <img src="./img/united-states.png" alt="usa-flag" class="converter-country-icon">
             <p class="converter-country-text">USD</p>
-            <input class="converter-input" type="text">
+            <input id="convertItemUSD" disabled class="converter-input usd-convert" type="text">
         </div>
         </div>
         <hr class="converter-overline">
@@ -37,7 +37,7 @@
             <div class="conventer-item">
             <img src="./img/european-union.png" alt="europe-flag" class="converter-country-icon">
             <p class="converter-country-text">EUR</p>
-            <input class="converter-input" type="text">
+            <input id="convertItemEUR" disabled class="converter-input" type="text">
         </div>
         </div>
         <hr class="converter-overline">
@@ -45,7 +45,7 @@
             <div class="conventer-item">
             <img src="./img/ukraine.png" alt="ukraine-flag" class="converter-country-icon">
             <p class="converter-country-text">UAH</p>
-            <input class="converter-input" type="text">
+            <input id="convertItemUAH" disabled class="converter-input" type="text">
         </div>
         </div>
         <hr class="converter-overline">
@@ -53,15 +53,15 @@
             <div class="conventer-item">
             <img src="./img/israel.png" alt="israel-flag" class="converter-country-icon">
             <p class="converter-country-text">ILS</p>
-            <input class="converter-input" type="text">
+            <input id="convertItemILS" disabled class="converter-input" type="text">
         </div>
         </div>
         <hr class="converter-overline">
         <div class="convert-button-container">
-            <button class="convert-button">Конвертировать</button>
+            <button id="convertButton" class="convert-button">Конвертировать</button>
         </div>
     </div>
 </div>
-    
+    <script src="./index.js"></script>
 </body>
 </html>
