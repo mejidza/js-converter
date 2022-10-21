@@ -1,84 +1,88 @@
 body {
-    background-color: #19254b;
-    font-family: 'Roboto', sans-serif;
+  background-color: #19254b;
+  font-family: "Roboto", sans-serif;
 }
 .container {
-    margin: 0 auto;
-    width: 450px;
-    
+  margin: 0 auto;
+  width: 450px;
 }
 .text-container {
-    display: flex;
-    flex-direction: column;
-    margin-right: 0px;    
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
 }
 .title-subtext {
-    margin-top: 120px;
-    margin-bottom: 10px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
 }
 .title-text {
-    font-weight: bold;
-    color: white;
-    font-size: 40px;
-    margin-bottom: 40px;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 .converter-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .conventer-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 450px
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
 }
 .converter-country-icon {
-    margin-bottom: 20px;
-width: 40px;
-height: 40px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
 }
 .converter-country-text {
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: left;
-    color: white;
-    font-size: 15px;
-
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  font-size: 15px;
 }
 .converter-input {
-    outline: none;
-    border: none;
-    background-color: #141d3e;
-    padding: 20px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    width: 300px
+  outline: none;
+  border: none;
+  background-color: #141d3e;
+  padding: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 .converter-overline {
-    width: 450px;
-    margin-bottom: 20px;
-    opacity: 0.1;
-    
+  width: 450px;
+  margin-bottom: 20px;
+  opacity: 0.1;
 }
-.converter-button-container {
 
-}
 .convert-button {
-    padding: 20px;
-    background-color: #141d3e;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    border: none;
-    outline: none;
-    width: 450px
+  padding: 20px;
+  background-color: #141d3e;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  outline: none;
+  width: 450px;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
 }
