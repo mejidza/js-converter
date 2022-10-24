@@ -86,3 +86,27 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   display: none;
 }
+.switch-buttons {
+
+  position: absolute;
+  top: 10px;
+  left: 1700px;
+}
+.switch-language-button-ru {
+  text-decoration: none;
+
+}
+
+
+.switch-language-button-en {
+
+text-decoration: none;
+ 
+}
+.switch-button-image {
+  width: 40px;
+  height: 40px;
+  background-color: #141d3e;
+  padding: 20px;
+  border-radius: 40px;
+}
